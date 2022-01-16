@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1>Urban happiness</h1>
+      <p>the music fanatics happy place</p>
+      <img
+        className="cover"
+        alt="led zepellin IV cover image"
+        src="https://i.iheart.com/v3/re/new_assets/5a03717059dfe3ce2a9f9fa5"
+          ></img>
+      <p>Release date: 1973</p>
     </div>
   );
 }
