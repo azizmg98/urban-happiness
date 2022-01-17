@@ -1,18 +1,13 @@
 import './App.css';
+import './AlbumsList.js';
+import './components/Home.js';
+import Home from './components/Home.js';
+import AlbumsList from './AlbumsList.js';
 
 function App() {
-  return (
-    <div className='App'>
-      <h1>Urban happiness</h1>
-      <p>the music fanatics happy place</p>
-      <img
-        className="cover"
-        alt="led zepellin IV cover image"
-        src="https://i.iheart.com/v3/re/new_assets/5a03717059dfe3ce2a9f9fa5"
-          ></img>
-      <p>Release date: 1973</p>
-    </div>
-  );
-}
+  return <div>
+     <Home />
+     </div>
+};
 
 export default App;

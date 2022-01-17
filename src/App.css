@@ -38,8 +38,9 @@
 }
 
 .cover {
+  flex: row;
   text-align: center;
-  object-fit: cover;
-  width:500px ;
-  height:440px;
+  object-fit: stretch;
+  width:100%px ;
+  height:100%;
 }
