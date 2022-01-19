@@ -1,16 +1,16 @@
-import AlbumsList from "../AlbumsList";
-
 import React from 'react'
+import AlbumsList from '../AlbumsList';
+import AlbumItem from './AlbumItem';
 
-// const AlbumView = (album) => {
-//     return (
-//         <div>
-//             {AlbumsList.map(album) album =>{ (album.name
-//                 )}
-            
-//         </div>
-//     )
-// }
+const AlbumView = () => {
+    return (
+        <div>
+            {AlbumsList.map((album) => (
+              <AlbumItem album={AlbumsList} />  
+            ))}
+        </div>
+    )
+}
 
-export default AlbumViewalbum
+export default AlbumView;
 

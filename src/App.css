@@ -38,7 +38,15 @@
 }
 
 .cover {
-  flex: row;
+  /* display: flex; */
+  flex-flow: row wrap;
+  text-align: center;
+  object-fit: stretch;
+  width:400px ;
+  height:100%;
+}
+
+.bkg-image {
   text-align: center;
   object-fit: stretch;
   width:100%px ;

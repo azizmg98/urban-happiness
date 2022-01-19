@@ -8,7 +8,7 @@ const AlbumsList = [
     image: "https://www.rollingstone.com/wp-content/uploads/2018/06/rs-148782-81coqlbpcwl-sl1400-1392919092.jpg"},
     
     {name: "Quiet signs",
-    price: `$   {9.000}KD`,
+    price: `${9.000}KD`,
     image: "https://f4.bcbits.com/img/a3502216320_10.jpg"},
 ]
 
