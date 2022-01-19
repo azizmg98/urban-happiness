@@ -6,7 +6,7 @@ const AlbumView = () => {
     return (
         <div>
             {AlbumsList.map((album) => (
-              <AlbumItem album={AlbumsList} />  
+              <AlbumItem album={album} />  
             ))}
         </div>
     )
